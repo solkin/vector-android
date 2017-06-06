@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="48dp"
+            android:height="24dp"
+            android:viewportHeight="24"
+            android:viewportWidth="48">
+            <group android:name="gear_group">
+                <path
+                    android:name="gear_path"
+                    android:fillColor="#FF1744"
+                    android:pathData="M19.43 12.98c.04-.32 .07 -.64 .07 -.98s-.03-.66-.07-.98l2.11-1.65c.19-.15 .24
+-.42 .12 -.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49
+1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46 .18
+-.49 .42 l-.38 2.65c-.61 .25 -1.17 .59 -1.69 .98 l-2.49-1c-.23-.09-.49 0-.61 .22
+l-2 3.46c-.13 .22 -.07 .49 .12 .64 l2.11 1.65c-.04 .32 -.07 .65 -.07 .98 s.03
+.66 .07 .98 l-2.11 1.65c-.19 .15 -.24 .42 -.12 .64 l2 3.46c.12 .22 .39 .3 .61
+.22 l2.49-1c.52 .4 1.08 .73 1.69 .98 l.38 2.65c.03 .24 .24 .42 .49 .42 h4c.25 0
+.46-.18 .49 -.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23 .09 .49 0
+.61-.22l2-3.46c.12-.22 .07 -.49-.12-.64l-2.11-1.65zM12 15.5c-1.93
+0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z" />
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="gear_path">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:name="color"
+                android:duration="2000"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:propertyName="fillColor"
+                android:repeatCount="infinite"
+                android:repeatMode="reverse"
+                android:valueFrom="#FF1744"
+                android:valueTo="#4527A0"
+                android:valueType="colorType" />
+        </aapt:attr>
+    </target>
+    <target android:name="gear_group">
+        <aapt:attr name="android:animation">
+            <set xmlns:android="http://schemas.android.com/apk/res/android"
+                android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="pivotX"
+                    android:valueFrom="12"
+                    android:valueTo="12"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="0"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="pivotY"
+                    android:valueFrom="12"
+                    android:valueTo="12"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="rotation"
+                    android:repeatCount="infinite"
+                    android:repeatMode="reverse"
+                    android:valueFrom="0"
+                    android:valueTo="160"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:repeatMode="reverse"
+                    android:startOffset="0"
+                    android:valueFrom="0"
+                    android:valueTo="24"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
