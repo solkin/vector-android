@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Code\Android\vector-android\app\app.iml" filepath="C:\Code\Android\vector-android\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/vector-android.iml" filepath="$PROJECT_DIR$/vector-android.iml" />
-      <module fileurl="file://C:\Code\Android\vector-android\vector-android.iml" filepath="C:\Code\Android\vector-android\vector-android.iml" />
     </modules>
   </component>
 </project>
